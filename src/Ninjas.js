@@ -18,7 +18,7 @@ const Ninjas = ({ ninjas }) => {
     // })
     const ninjaList = ninjas.map(ninja => {
         return ninja.age > 20 ? (
-            <div classname="ninja" key={ninja.id}>
+            <div className="ninja" key={ninja.id}>
                 <div>name: {ninja.name}</div>
                 <div>age: {ninja.age}</div>
                 <div>belt: {ninja.belt}</div>
